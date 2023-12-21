@@ -70,7 +70,9 @@ public:
         {
             if (!visited[v] && distance[v] < minDist)
                 {
+                    
                 minDist = distance[v];
+                    
                 minIndex = v;
             }
         }
